@@ -1,6 +1,6 @@
 ## Sunburst Theme
 
-Fizzy is an atom port of the TextMate sunburst theme.
+Sunburst is an atom port of the TextMate sunburst theme.
 
 ### Installation
 
