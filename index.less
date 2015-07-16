@@ -1,18 +1,24 @@
-.editor, .editor .gutter {
-  background-color: #000000;
+.gutter {
+  background-color: #282828;
+  color: #F8F820;
+}
+
+atom-text-editor, :host {
+  background-color: #202020;
   color: #F8F8F8;
 }
 
-.editor.is-focused .cursor {
+.cursor {
   border-color: #A7A7A7;
 }
 
-.editor.is-focused .selection .region {
+.is-focused .selection .region {
   background-color: #AEE219;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-  background-color: rgba(255, 255, 255, 0.1);
+.is-focused .line-number.cursor-line-no-selection, .is-focused .line.cursor-line {
+  background-color: rgba(255,255,255,0.04);
+  color: #FAFAFA;
 }
 
 .comment {
@@ -60,7 +66,9 @@
 }
 
 .text .source {
-  background-color: rgba(177, 179, 186, 0.03);
+  // background-color: rgba(177, 179, 186, 0.0);
+  // background-color: #282828;
+  color: #eeeeee;
 }
 
 .entity.other.inherited-class {
@@ -238,4 +246,3 @@
 .meta.line.error.logfile {
   background-color: #751012;
 }
-
