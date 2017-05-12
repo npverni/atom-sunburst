@@ -1,12 +1,12 @@
 {
-  "name": "sunburst",
+  "name": "atom-sunburst",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "private": false,
-  "description": "An atom port of the TextMate Sunburst theme",
-  "repository": "https://github.com/npverni/atom-sunburst",
+  "description": "An atom port of the TextMate Sunburst theme by Soryu (https://github.com/Soryu/Sunburst)",
+  "repository": "https://github.com/windhamdavid/atom-sunburst",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
